@@ -35,17 +35,26 @@ export default function Vision() {
               오프라인 비즈니스를 온라인으로 옮기고, 사용자가 접근하기 쉬운 플랫폼을 만드는 인프라 중심의 디지털 전환 단계입니다.
             </p>
             <ul className="space-y-4 text-gray-300 text-sm">
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-                Web & App Platform
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">Web & App Platform</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">만능형 웹 및 모바일 앱 구축</p>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-             UI/UX Optimization
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">UI/UX Optimization</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">사용자 편의성 중심의 인터페이스 설계!</p>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-              System Integration
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">System Integration</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">레거시 시스템 연동 및 데이터 수집</p>
               </li>
             </ul>
           </motion.div>
@@ -70,18 +79,27 @@ export default function Vision() {
             <p className="text-gray-400 text-sm mb-8">
               AI를 사용하여 데이터를 분석하고 콘텐츠를 생성하며, 사용자에게 개인화된 예측형 디지털 경험을 제공하는 지능형 전환 단계입니다.
             </p>
-            <ul className="space-y-4 text-gray-300 text-sm">
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                Al-Driven UX/UI
+           <ul className="space-y-4 text-gray-300 text-sm">
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">Al-Driven UX/UI</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">사용자 행동 예측 및 초개인화된 맞춤형 인터페이스</p>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                Generative Content
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">Generative Content</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">생성형 AI 기반의 텍스트, 이미지 등 동적 콘텐츠 생성</p>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-            Intelligent Agent
+              <li>
+                <div className="flex items-center gap-3 mb-1">
+                  <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
+                  <span className="font-bold text-white">Intelligent Agent</span>
+                </div>
+                <p className="pl-4 text-gray-400 text-xs">자율적으로 업무와 상호작용하는 AI 에이전트 연동</p>
               </li>
             </ul>
           </motion.div>
@@ -91,9 +109,9 @@ export default function Vision() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             { title: "AI Service Planning", desc: "데이터 기반의 사용자 분석을 통한 AI 서비스 기획" },
-            { title: "Intelligent Platform", desc: "머신러닝과 딥러닝 모델을 적용한 지능형 플랫폼 구축" },
-            { title: "AI Design System", desc: "AI 생성형 디자인 도구를 활용한 효율적인 UI/UX 설계" },
-            { title: "Workflow Automation", desc: "반복적인 업무를 자동화하여 생산성 향상 및 비용 절감" }
+            { title: "Intelligent Platform", desc: "AI 모델을 적용한 지능형 플랫폼 구축" },
+            { title: "AI Design System", desc: "AI 생성형 도구를 활용한 효율적인 UI/UX 디자인 시스템 설계" },
+            { title: "Workflow AI Agents", desc: "반복적인 업무를 자동화하여 생산성 향상 및 비용 절감" }
           ].map((card, idx) => (
             <motion.div
               key={idx}
