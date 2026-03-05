@@ -17,7 +17,7 @@ export default function Mission() {
     offset: ["start 90%", "end 50%"]
   });
 
-  const text = "아이파트너즈의 AX는\n 사람을 줄이지 않고키웁니다.\n전 구성원을 '비즈니스 아키텍트'로\n성장시켜 흔들림 없는 프로젝트\n품질을 완성합니다.";
+  const text = "아이파트너즈의 AX는\n 사람을 줄이지 않고 키웁니다.\n전 구성원을 '비즈니스 아키텍트'로\n성장시켜 흔들림 없는 프로젝트\n품질을 완성합니다.";
   const characters = text.split("");
 
   return (
@@ -48,7 +48,7 @@ export default function Mission() {
             })}
           </h2>
           <p className="text-white-400 max-w-4xl leading-relaxed text-lg font-Regular">
-            기술형 에이전시를 넘어, AI를 도입하여 업무 단계를 자동화하고 생산성을 극대화합니다. <br className="hidden md:block" />
+            기술형 에이전시를 넘어, AI를 도입하여 업무 단계를 자동화하고 생산성을 극대화하고, <br className="hidden md:block" />
             이를 통해 축적된 역량은 품질에 집중하여, 고객의 비즈니스 가치를 극대화하는 파트너로 성장합니다. <br className="hidden md:block" />
             아이파트너즈는 새로운 기술과 트렌드를 빠르게 받아들이고, 고객의 비즈니스 혁신을 이끌어갑니다.
           </p>

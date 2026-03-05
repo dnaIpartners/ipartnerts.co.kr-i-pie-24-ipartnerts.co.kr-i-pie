@@ -32,20 +32,20 @@ export default function Vision() {
             <h3 className="text-gray-400 text-sm font-bold mb-2">기존 에이전시 업무 방식</h3>
             <h4 className="text-2xl font-bold mb-4 text-white">구축 중심의 에이전시</h4>
             <p className="text-gray-400 text-sm mb-8">
-              인력 중심의 노동 집약적 업무 방식은 프로젝트의 품질과 생산성에 한계를 가질 수밖에 없습니다.
+              오프라인 비즈니스를 온라인으로 옮기고, 사용자가 접근하기 쉬운 플랫폼을 만드는 인프라 중심의 디지털 전환 단계입니다.
             </p>
             <ul className="space-y-4 text-gray-300 text-sm">
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-                As-Is App Platform
+                Web & App Platform
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-                Siloed Database
+             UI/UX Optimization
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-gray-500 rounded-full" />
-                System Integration
+              System Integration
               </li>
             </ul>
           </motion.div>
@@ -53,7 +53,7 @@ export default function Vision() {
           {/* Center Arrow/Indicator */}
           <div className="flex justify-center relative z-10">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 md:w-48 h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent -z-10" />
-            <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-blue-600 flex items-center justify-center bg-black text-blue-500 font-black text-xl md:text-2xl shadow-[0_0_25px_rgba(37,99,235,0.6),inset_0_0_10px_rgba(37,99,235,0.4)] tracking-wider">
+            <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-blue-600 flex items-center justify-center bg-[radial-gradient(circle_at_30%_30%,#1e3a8a,#000000_70%)] text-blue-400 font-black text-xl md:text-2xl shadow-[0_0_25px_rgba(37,99,235,0.6),inset_0_0_15px_rgba(37,99,235,0.5)] tracking-wider">
               i-PIE
             </div>
           </div>
@@ -66,22 +66,22 @@ export default function Vision() {
             className="glass-card p-10 rounded-3xl border-blue-500/30 bg-blue-900/10"
           >
              <h3 className="text-blue-400 text-sm font-bold mb-2">AI 파트너 업무 방식</h3>
-            <h4 className="text-2xl font-bold mb-4 text-white">가치 중심의 AI 파트너</h4>
+            <h4 className="text-2xl font-bold mb-4 text-white">지능형 경험 에이전시</h4>
             <p className="text-gray-400 text-sm mb-8">
-              AI 기술을 활용한 자동화와 지능화로 프로젝트의 품질을 높이고 새로운 비즈니스 가치를 창출합니다.
+              AI를 사용하여 데이터를 분석하고 콘텐츠를 생성하며, 사용자에게 개인화된 예측형 디지털 경험을 제공하는 지능형 전환 단계입니다.
             </p>
             <ul className="space-y-4 text-gray-300 text-sm">
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                Intelligent Platform
+                Al-Driven UX/UI
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                Unified Data Lake
+                Generative Content
               </li>
               <li className="flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                AI-Driven Automation
+            Intelligent Agent
               </li>
             </ul>
           </motion.div>
