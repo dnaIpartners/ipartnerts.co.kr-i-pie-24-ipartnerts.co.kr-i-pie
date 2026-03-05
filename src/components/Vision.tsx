@@ -51,9 +51,10 @@ export default function Vision() {
           </motion.div>
 
           {/* Center Arrow/Indicator */}
-          <div className="flex justify-center">
-            <div className="w-16 h-16 rounded-full border border-blue-500/30 flex items-center justify-center bg-blue-500/10 text-blue-400 font-bold text-sm shadow-[0_0_30px_rgba(59,130,246,0.3)]">
-              AI 전환
+          <div className="flex justify-center relative z-10">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 md:w-48 h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent -z-10" />
+            <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border-2 border-blue-600 flex items-center justify-center bg-black text-blue-500 font-black text-xl md:text-2xl shadow-[0_0_25px_rgba(37,99,235,0.6),inset_0_0_10px_rgba(37,99,235,0.4)] tracking-wider">
+              i-PIE
             </div>
           </div>
 
